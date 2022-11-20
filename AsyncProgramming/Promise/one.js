@@ -7,6 +7,6 @@ let goToMovies = (success, failure) => {
 
 goToMovies((msg) => {
     console.log(msg)
-}, (err) => {
+}, (err) => { 
     console.log(err)
 })
