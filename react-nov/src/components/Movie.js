@@ -1,16 +1,25 @@
-let Movie = () => {
-
-    let movie_Details = {
-        movie_Name: "Avatar 2",
-        dir_Name: 'James Cameran',
-        "actor": "Dont know",
-        "actress": "Nayana"
+import React from 'react'
+class Movie extends React.Component {
+    movie_Name = "Avatar2"
+    type = ['2d', '3d']
+    more_Details = {
+        dir_Name: "James C",
+        actor: "Rajni Kanth",
+        actress: "Nayana"
     }
-    return <div>
-        <pre>{JSON.stringify(movie_Details)}</pre>
-        <h2>Movie Info</h2>
-        <h3>Movie Name:{movie_Details.movie_Name}</h3>
-        <h3>Dir Name:{movie_Details.dir_Name}</h3>
-    </div>
+    render() {
+        return <>
+            <h1>Movie Component</h1>
+            <h3>Movie Name:{this.movie_Name}</h3>
+            <h3>Selected Type:{this.type[0]}</h3>
+            <button className="ashok">Book Tickets</button>
+            <ul>
+                <li> Crew : {this.more_Details.dir_Name} </li>
+                <li> Crew : {this.more_Details.actor} </li>
+                <li> Crew : {this.more_Details.actress} </li>
+            </ul>
+        </>
+    }
 }
+
 export default Movie

@@ -1,5 +1,6 @@
 import Message from './components/Message'
 import Movie from './components/Movie'
+import './asserts/sagnik.css'
 let App = () => {
 
 
