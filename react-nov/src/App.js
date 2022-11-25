@@ -1,15 +1,14 @@
-import Message from './components/Message'
-import Movie from './components/Movie'
-import './asserts/sagnik.css'
+import CompA from './PropEx/CompA'
+import User from './PropEx/User'
+import Navbar from './Navbar/Navbar'
 let App = () => {
 
 
     return <div>
+        <Navbar />
         <h1>App Component</h1>
         <hr />
-        <Message />
-        <hr />
-        <Movie />
+        <User />
 
     </div>
 }
