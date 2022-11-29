@@ -1,8 +1,9 @@
-import CompA from './PropEx/CompA'
-import User from './PropEx/User'
+//import CompA from './PropEx/CompA'
+//import User from './PropEx/User'
 import Navbar from './Navbar/Navbar'
-import Message from './StateEx/Message'
-import Product from './Product/Product'
+//import Message from './StateEx/Message'
+//import Product from './Product/Product'
+import Message from './EventBinding/Message'
 let App = () => {
 
 
@@ -10,7 +11,8 @@ let App = () => {
         <Navbar />
 
         <hr />
-        <Product />
+        <Message />
+        {/* <Product /> */}
 
     </div>
 }
