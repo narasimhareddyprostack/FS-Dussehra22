@@ -1,19 +1,14 @@
-//import CompA from './PropEx/CompA'
-//import User from './PropEx/User'
+import React from 'react'
 import Navbar from './Navbar/Navbar'
-//import Message from './StateEx/Message'
-//import Product from './Product/Product'
-import Message from './EventBinding/Message'
-let App = () => {
-
-
-    return <div>
-        <Navbar />
-
-        <hr />
-        <Message />
-        {/* <Product /> */}
-
-    </div>
+import Employee from './Employee/Employee'
+import Login from './FormHandling/Login'
+function App() {
+    return (
+        <div>
+            <Navbar />
+            <Login />
+        </div>
+    )
 }
+
 export default App
