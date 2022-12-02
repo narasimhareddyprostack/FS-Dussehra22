@@ -12,11 +12,6 @@ class Login extends Component {
     passwordHandler = (event) => {
         this.setState({ password: event.target.value })
     }
-    submitHandler = (event) => {
-        //invoking api
-        event.preventDefault()
-        console.log(this.state)
-    }
     render() {
         return (
             <div className="container mt-5">
@@ -24,9 +19,9 @@ class Login extends Component {
                 <div className="row">
                     <div className="col-md-6">
 
-                        <form onSubmit={this.submitHandler}>
+                        <form action="">
                             <label htmlFor="">Email Id</label>
-                            <input type="text" onChange={this.emailHandler} /> <br /><br />
+                            <input type="email" onChange={this.emailHandler} /> <br /><br />
                             <label htmlFor="">Password</label>
                             <input type="password" onChange={this.passwordHandler} /> <br /><br />
                             <input type="submit" value="Login" />

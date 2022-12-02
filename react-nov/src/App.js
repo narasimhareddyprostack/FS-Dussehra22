@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 import Employee from './Employee/Employee'
-import Login from './FormHandling/Login'
+import Registration from './FormHandling/Registration'
 function App() {
     return (
         <div>
             <Navbar />
-            <Login />
+            <Registration />
         </div>
     )
 }
