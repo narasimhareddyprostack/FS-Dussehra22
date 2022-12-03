@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Navbar from './Navbar/Navbar'
-import Employee from './Employee/Employee'
-import Registration from './FormHandling/Registration'
-function App() {
-    return (
-        <div>
-            <Navbar />
-            <Registration />
-        </div>
-    )
+import ContactApp from './Contacts/ContactApp'
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <Navbar />
+                <ContactApp />
+            </div>
+        )
+    }
 }
 
 export default App
