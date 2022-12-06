@@ -1,0 +1,24 @@
+import React, { useState } from 'react'
+
+const Message = () => {
+    let [msg, setMsg] = useState("HEllo");
+    /* let gmHandler = () => {
+        setMsg("GM Rahul Gandhi")
+    }
+    let gnHandler = () => {
+        setMsg("GN Rahul Ji")
+    } */
+    return (
+        <div>
+            <h1>Message Component : {msg}</h1>
+            <button onClick={() => {
+                setMsg("GM Rahul Gandhi")
+            }}>GM</button>
+            <button onClick={() => {
+                setMsg("GN Rahul")
+            }}>GN</button>
+        </div>
+    )
+}
+
+export default Message

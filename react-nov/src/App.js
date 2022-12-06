@@ -2,8 +2,11 @@ import React, { Component } from 'react'
 import Navbar from './Navbar/Navbar'
 import Home from './components/Home'
 import About from './components/About'
+import Counter from './Hooks/Counter'
 import Services from './components/Services'
 import Contact from './components/Contact'
+import Message from './Hooks/Message'
+import Product from './Hooks/Product'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 class App extends Component {
     render() {
@@ -16,6 +19,9 @@ class App extends Component {
                         <Route path="/about" element={<About />} />
                         <Route path="/services" element={<Services />} />
                         <Route path="/contact" element={<Contact />} />
+                        <Route path="/message" element={<Message />} />
+                        <Route path="/counter" element={<Counter />} />
+                        <Route path="/product" element={<Product />} />
                     </Routes>
                 </Router>
             </div>
