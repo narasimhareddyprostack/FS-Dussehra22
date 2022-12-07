@@ -9,12 +9,12 @@ class Navbar extends Component {
         </Link>
         <div className="ml-auto">
           <ul className="navbar-nav">
-            <li className="nav-list">
+            {/*    <li className="nav-list">
               <Link className="nav-link" to="/home">
                 Home
               </Link>
-            </li>
-            <li className="nav-list">
+            </li> */}
+            {/*  <li className="nav-list">
               <Link className="nav-link" to="/about">
                 About
               </Link>
@@ -23,17 +23,17 @@ class Navbar extends Component {
               <Link className="nav-link" to="/services">
                 Services
               </Link>
-            </li>
-            <li className="nav-list">
+            </li> */}
+            {/*    <li className="nav-list">
               <Link className="nav-link" to="/contact">
                 Contact
               </Link>
-            </li>
-            <li className="nav-list">
+            </li> */}
+            {/*   <li className="nav-list">
               <Link className="nav-link" to="/message">
                 Message
               </Link>
-            </li>
+            </li> */}
             <li className="nav-list">
               <Link className="nav-link" to="/counter">
                 Counter
@@ -44,14 +44,29 @@ class Navbar extends Component {
                 Product
               </Link>
             </li>
-            <li className="nav-list">
+            {/*   <li className="nav-list">
               <Link className="nav-link" to="/digital">
                 Digital
               </Link>
-            </li>
-            <li className="nav-list">
+            </li> */}
+            {/* <li className="nav-list">
               <Link className="nav-link" to="/login">
                 Login
+              </Link>
+            </li> */}
+            <li className="nav-list">
+              <Link className="nav-link" to="/ref">
+                useRef Hook
+              </Link>
+            </li>
+            <li className="nav-list">
+              <Link className="nav-link" to="/reflogin">
+                useRef Hook - Login
+              </Link>
+            </li>
+            <li className="nav-list">
+              <Link className="nav-link" to="/reducer">
+                useReducer-Hook
               </Link>
             </li>
           </ul>
