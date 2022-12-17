@@ -29,7 +29,7 @@ const User = () => {
                             {
                                 Object.keys(users).length > 0 ? <>
                                     {
-                                        users.user.map((singleUser, index) => {
+                                        users.users.map((singleUser, index) => {
                                             return <tr key={index}>
                                                 <td>{singleUser.id}</td>
                                                 <td>{singleUser.name}</td>

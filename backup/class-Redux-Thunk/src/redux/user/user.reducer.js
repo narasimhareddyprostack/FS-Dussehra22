@@ -1,7 +1,7 @@
 //import Action tyeps 
 import { USER_REQ, USER_SUCCESS, USER_FAIL } from './user.action'
 let initialState = {
-    user: [],
+    users: [],
     message: ""
 }
 

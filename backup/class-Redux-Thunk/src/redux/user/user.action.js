@@ -19,7 +19,7 @@ let user_Action = () => {
     console.log("Second - Test Case -2 ")
     return async (dispatch) => {
         dispatch(user_Req())
-        Axios.get('https://jsonplaceholder1.typicode.com/users')
+        Axios.get('https://jsonplaceholder.typicode.com/users')
             .then((res) => {
                 console.log(res.data)
                 dispatch(user_Success(res.data))
